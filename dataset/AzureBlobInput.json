@@ -1,0 +1,24 @@
+{
+	"name": "AzureBlobInput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobInput",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureBlob",
+		"typeProperties": {
+			"format": {
+				"type": "TextFormat",
+				"columnDelimiter": ",",
+				"rowDelimiter": "",
+				"nullValue": "\\N",
+				"encodingName": null,
+				"treatEmptyAsNull": true,
+				"skipLineCount": 2,
+				"firstRowAsHeader": false
+			},
+			"fileName": "input.log",
+			"folderPath": "adfgetstarted/inputdata"
+		}
+	}
+}
