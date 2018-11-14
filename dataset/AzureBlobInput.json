@@ -2,7 +2,7 @@
 	"name": "AzureBlobInput",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureBlobInput",
+			"referenceName": "AzureBlobStorage_LinkedService",
 			"type": "LinkedServiceReference"
 		},
 		"type": "AzureBlob",
@@ -10,9 +10,7 @@
 			"format": {
 				"type": "TextFormat",
 				"columnDelimiter": ",",
-				"rowDelimiter": "",
 				"nullValue": "\\N",
-				"encodingName": null,
 				"treatEmptyAsNull": true,
 				"skipLineCount": 2,
 				"firstRowAsHeader": false
