@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "fmguiradoGetStartedDF"
+		},
+		"AzureBlobInput_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage_LinkedService_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage_LinkedService2_clusterPassword": {
+			"value": ""
+		},
+		"AzureBlobStorage_LinkedService2_clusterSshPassword": {
+			"value": ""
+		},
+		"AzureBlobStorage_LinkedService2_servicePrincipalKey": {
+			"value": ""
+		},
+		"AzureBlobInput_properties_typeProperties_fileName": {
+			"value": "input.log"
+		},
+		"AzureBlobInput_properties_typeProperties_folderPath": {
+			"value": "adfgetstarted/inputdata"
+		},
+		"AzureBlobOutput_properties_typeProperties_fileName": {
+			"value": ""
+		},
+		"AzureBlobOutput_properties_typeProperties_folderPath": {
+			"value": "adfgetstarted/partitioneddata"
+		},
+		"AzureBlobStorage_LinkedService2_properties_typeProperties_hostSubscriptionId": {
+			"value": "7d507324-908a-4acc-8f9b-05a2773a16ad"
+		},
+		"AzureBlobStorage_LinkedService2_properties_typeProperties_clusterResourceGroup": {
+			"value": "ADFGetStartedRG"
+		},
+		"AzureBlobStorage_LinkedService2_properties_typeProperties_servicePrincipalId": {
+			"value": "7d507324-908a-4acc-8f9b-05a2773a16ad"
+		},
+		"AzureBlobStorage_LinkedService2_properties_typeProperties_tenant": {
+			"value": "5106d2e5-ab2d-4f7b-bfdf-816c23e51dae"
+		}
+	}
+}
