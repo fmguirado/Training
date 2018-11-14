@@ -13,20 +13,6 @@
 					"secureInput": false
 				},
 				"typeProperties": {
-					"scriptPath": ""
-				}
-			},
-			{
-				"name": "Hive2",
-				"type": "HDInsightHive",
-				"policy": {
-					"timeout": "7.00:00:00",
-					"retry": 0,
-					"retryIntervalInSeconds": 30,
-					"secureOutput": false,
-					"secureInput": false
-				},
-				"typeProperties": {
 					"scriptPath": "adfgetstarted/script/partitionweblogs.hql",
 					"scriptLinkedService": {
 						"referenceName": "AzureBlobStorage_LinkedService",
