@@ -32,6 +32,10 @@
 						"referenceName": "AzureBlobStorage_LinkedService",
 						"type": "LinkedServiceReference"
 					}
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureBlobStorage_LinkedService2",
+					"type": "LinkedServiceReference"
 				}
 			}
 		]
