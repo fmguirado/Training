@@ -2,7 +2,7 @@
 	"name": "AzureBlobOutput",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureBlobInput",
+			"referenceName": "AzureBlobStorage_LinkedService",
 			"type": "LinkedServiceReference"
 		},
 		"type": "AzureBlob",
