@@ -13,11 +13,7 @@
 					"secureInput": false
 				},
 				"typeProperties": {
-					"scriptPath": "adfgetstarted/script/partitionweblogs.hql",
-					"scriptLinkedService": {
-						"referenceName": "AzureBlobInput",
-						"type": "LinkedServiceReference"
-					}
+					"scriptPath": ""
 				}
 			}
 		]
